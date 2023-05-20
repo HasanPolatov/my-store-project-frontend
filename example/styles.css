@@ -1,0 +1,108 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+li {
+    list-style: none;
+
+
+}
+
+ul {
+    padding: 10px;
+    background: rgb(59, 118, 60);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: #ffffff9e;
+
+}
+
+a:hover {
+
+    background-color: aqua;
+    padding: 1px;;
+    transition: ease;
+    transform: translate(2px, 3px);
+}
+
+a:active {
+
+    color: #4CAF50;
+}
+
+select {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #e6e6e6;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+#select-category {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9fff8;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#deleteBut {
+    background-color: #b92525;
+}
+
+#updateBut {
+    background-color: #1571b7;
+}
+
+#createBut {
+    background-color: #45a049;
+}
+
+#addBut {
+    background-color: #3e8e41;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
