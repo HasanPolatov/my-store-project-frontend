@@ -76,6 +76,7 @@ fetch("http://localhost:8080/api/categories")
                         categoryId: selectCategoryIdForCreatingProduct
                     };
 
+                    // print newProduct
                     console.log(newProduct);
 
                     console.log(JSON.stringify(newProduct));
